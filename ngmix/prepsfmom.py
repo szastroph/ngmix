@@ -1,7 +1,8 @@
 import logging
 
 import numpy as np
-import scipy.fft as fft
+from scipy import fft
+# import scipy.fft as fft
 from numba import njit
 
 from ngmix.observation import Observation
